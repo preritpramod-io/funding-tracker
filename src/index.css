@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0c0f;
+  --surface: #111318;
+  --border: #1e2230;
+  --text: #e8eaf0;
+  --muted: #5a6070;
+  --saffron: #ED7C25;
+  --marigold: #F3AC41;
+  --lapis: #1A385E;
+  --lapis-light: #2a5490;
+  --green: #22c55e;
+  --red: #ef4444;
+  --yellow: #eab308;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
